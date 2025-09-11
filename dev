@@ -1,0 +1,98 @@
+> react-router dev
+
+Using vars defined in .env
+5:29:34 PM [vite] (client) Re-optimizing dependencies because lockfile has changed
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: use --host to expose
+  ➜  Debug:   http://localhost:3000/__debug
+  ➜  press h + enter to show help
+5:29:35 PM [vite] Unexpected Node.js imports for environment "ssr". Do you need to enable the "nodejs_compat" compatibility flag?
+5:29:35 PM [vite] Unexpected Node.js imports for environment "ssr". Do you need to enable the "nodejs_compat" compatibility flag? Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details.
+ - "node:stream" imported from "build/server/index.js"
+ - "node:stream" imported from "node_modules/@smithy/util-stream/dist-es/createBufferedReadable.js"
+ - "fs" imported from "node_modules/@react-router/node/dist/index.js"
+ - "fs" imported from "node_modules/@remotion/lambda-client/dist/esm/index.mjs"
+ - "fs" imported from "node_modules/@aws-sdk/lib-storage/dist-es/runtimeConfig.js"
+ - "fs" imported from "node_modules/@smithy/shared-ini-file-loader/dist-es/getSSOTokenFromFile.js"
+ - "fs" imported from "node_modules/@smithy/shared-ini-file-loader/dist-es/slurpFile.js"
+ - "fs" imported from "node_modules/@smithy/util-body-length-node/dist-es/calculateBodyLength.js"
+ - "fs" imported from "node_modules/@smithy/hash-stream-node/dist-es/fileStreamHasher.js"
+ - "fs" imported from "node_modules/@aws-sdk/credential-provider-web-identity/dist-es/fromTokenFile.js"
+ - "fs" imported from "node_modules/@aws-sdk/token-providers/dist-es/writeSSOTokenToFile.js"
+ - "path" imported from "node_modules/@react-router/node/dist/index.js"
+ - "path" imported from "node_modules/@remotion/lambda-client/dist/esm/index.mjs"
+ - "path" imported from "node_modules/mime-types/index.js"
+ - "path" imported from "node_modules/@smithy/shared-ini-file-loader/dist-es/loadSharedConfigFiles.js"
+ - "path" imported from "node_modules/@smithy/shared-ini-file-loader/dist-es/getConfigFilepath.js"
+ - "path" imported from "node_modules/@smithy/shared-ini-file-loader/dist-es/getSSOTokenFilepath.js"
+ - "path" imported from "node_modules/@smithy/shared-ini-file-loader/dist-es/getHomeDir.js"
+ - "path" imported from "node_modules/@smithy/shared-ini-file-loader/dist-es/getCredentialsFilepath.js"
+ - "stream" imported from "node_modules/@react-router/node/dist/index.js"
+ - "stream" imported from "node_modules/@aws-sdk/lib-storage/dist-es/chunker.js"
+ - "stream" imported from "node_modules/@smithy/util-stream/dist-es/headStream.js"
+ - "stream" imported from "node_modules/@smithy/util-stream/dist-es/splitStream.js"
+ - "stream" imported from "node_modules/@smithy/util-stream/dist-es/getAwsChunkedEncodingStream.js"
+ - "stream" imported from "node_modules/@smithy/util-stream/dist-es/checksum/ChecksumStream.js"
+ - "stream" imported from "node_modules/@smithy/util-stream/dist-es/sdk-stream-mixin.js"
+ - "stream" imported from "node_modules/@smithy/node-http-handler/dist-es/stream-collector/collector.js"
+ - "stream" imported from "node_modules/@smithy/middleware-retry/dist-es/isStreamingPayload/isStreamingPayload.js"
+ - "stream" imported from "node_modules/@smithy/node-http-handler/dist-es/write-request-body.js"
+ - "stream" imported from "node_modules/@smithy/eventstream-serde-node/dist-es/EventStreamMarshaller.js"
+ - "stream" imported from "node_modules/@smithy/hash-stream-node/dist-es/HashCalculator.js"
+ - "node:module" imported from "node_modules/@remotion/lambda-client/dist/esm/index.mjs"
+ - "tty" imported from "node_modules/@remotion/lambda-client/dist/esm/index.mjs"
+ - "os" imported from "node_modules/@remotion/lambda-client/dist/esm/index.mjs"
+ - "os" imported from "node_modules/@smithy/shared-ini-file-loader/dist-es/getHomeDir.js"
+ - "os" imported from "node_modules/@aws-sdk/util-user-agent-node/dist-es/defaultUserAgent.js"
+ - "node:events" imported from "node_modules/@remotion/lambda-client/dist/esm/index.mjs"
+ - "events" imported from "node_modules/@aws-sdk/lib-storage/dist-es/Upload.js"
+ - "buffer" imported from "node_modules/@aws-sdk/lib-storage/dist-es/bytelength.js"
+ - "buffer" imported from "node_modules/@aws-sdk/lib-storage/dist-es/chunker.js"
+ - "buffer" imported from "node_modules/@aws-sdk/lib-storage/dist-es/chunks/getDataReadableStream.js"
+ - "buffer" imported from "node_modules/@aws-sdk/lib-storage/dist-es/chunks/getChunkStream.js"
+ - "buffer" imported from "node_modules/@aws-sdk/lib-storage/dist-es/chunks/getDataReadable.js"
+ - "buffer" imported from "node_modules/@smithy/util-buffer-from/dist-es/index.js"
+ - "buffer" imported from "node_modules/@smithy/hash-node/dist-es/index.js"
+ - "buffer" imported from "node_modules/@aws-crypto/util/node_modules/@smithy/util-buffer-from/dist-es/index.js"
+ - "buffer" imported from "node_modules/@smithy/credential-provider-imds/dist-es/remoteProvider/httpRequest.js"
+ - "crypto" imported from "node_modules/@smithy/shared-ini-file-loader/dist-es/getSSOTokenFilepath.js"
+ - "crypto" imported from "node_modules/uuid/dist/esm-node/rng.js"
+ - "crypto" imported from "node_modules/uuid/dist/esm-node/sha1.js"
+ - "crypto" imported from "node_modules/uuid/dist/esm-node/native.js"
+ - "crypto" imported from "node_modules/uuid/dist/esm-node/md5.js"
+ - "crypto" imported from "node_modules/@smithy/hash-node/dist-es/index.js"
+ - "http2" imported from "node_modules/@smithy/node-http-handler/dist-es/node-http2-handler.js"
+ - "http2" imported from "node_modules/@smithy/node-http-handler/dist-es/node-http2-connection-manager.js"
+ - "http" imported from "node_modules/@smithy/node-http-handler/dist-es/node-http-handler.js"
+ - "http" imported from "node_modules/@smithy/credential-provider-imds/dist-es/remoteProvider/httpRequest.js"
+ - "https" imported from "node_modules/@smithy/node-http-handler/dist-es/node-http-handler.js"
+ - "zlib" imported from "node_modules/@aws-sdk/middleware-flexible-checksums/dist-es/getCrc32ChecksumAlgorithmFunction.js"
+ - "process" imported from "node_modules/@aws-sdk/util-user-agent-node/dist-es/defaultUserAgent.js"
+ - "url" imported from "node_modules/@smithy/credential-provider-imds/dist-es/fromContainerMetadata.js"
+ - "child_process" imported from "node_modules/@aws-sdk/credential-provider-process/dist-es/resolveProcessCredentials.js"
+ - "util" imported from "node_modules/@aws-sdk/credential-provider-process/dist-es/resolveProcessCredentials.js"
+ - "fs/promises" imported from "node_modules/@aws-sdk/credential-provider-http/dist-es/fromHttp/fromHttp.js"
+
+5:30:56 PM [vite] Internal server error: Error running module "/Users/ruben.casas@postman.com/Documents/remotion-api/my-video/bui
+5:30:56 PM [vite] Internal server error: Error running module "/Users/ruben.casas@postman.com/Documents/remotion-api/my-video/build/server/index.js".
+Failed to load url node:stream (resolved id: node:stream) in /Users/ruben.casas@postman.com/Documents/remotion-api/my-video/build
+Failed to load url node:stream (resolved id: node:stream) in /Users/ruben.casas@postman.com/Documents/remotion-api/my-video/build/server/index.js. Does the file exist?.
+      at async ProxyServer.fetch (file:///Users/ruben.casas@postman.com/Documents/remotion-api/my-video/node_modules/miniflare/sr
+      at async ProxyServer.fetch (file:///Users/ruben.casas@postman.com/Documents/remotion-api/my-video/node_modules/miniflare/src/workers/core/proxy.worker.ts:174:11)
+5:30:56 PM [vite] Unexpected Node.js imports for environment "ssr". Do you need to enable the "nodejs_compat" compatibility flag?
+5:30:56 PM [vite] Unexpected Node.js imports for environment "ssr". Do you need to enable the "nodejs_compat" compatibility flag? Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details.
+ - "node:stream" imported from "build/server/index.js"
+
+5:31:02 PM [vite] Internal server error: Error running module "/Users/ruben.casas@postman.com/Documents/remotion-api/my-video/bui
+5:31:02 PM [vite] Internal server error: Error running module "/Users/ruben.casas@postman.com/Documents/remotion-api/my-video/build/server/index.js".
+Failed to load url node:stream (resolved id: node:stream) in /Users/ruben.casas@postman.com/Documents/remotion-api/my-video/build
+Failed to load url node:stream (resolved id: node:stream) in /Users/ruben.casas@postman.com/Documents/remotion-api/my-video/build/server/index.js. Does the file exist?.
+      at async ProxyServer.fetch (file:///Users/ruben.casas@postman.com/Documents/remotion-api/my-video/node_modules/miniflare/sr
+      at async ProxyServer.fetch (file:///Users/ruben.casas@postman.com/Documents/remotion-api/my-video/node_modules/miniflare/src/workers/core/proxy.worker.ts:174:11)
+5:31:15 PM [vite] (ssr) Re-optimizing dependencies because vite config has changed
+Using vars defined in .env
+5:31:15 PM [vite] server restarted.
+Default inspector port 9229 not available, using 9230 instead
+
+Using vars defined in .env
+5:31:20 PM [vite] server restarted.

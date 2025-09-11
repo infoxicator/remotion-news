@@ -41,16 +41,16 @@ if (
 
 console.log("Selected region:", REGION);
 
-process.stdout.write("Deploying Lambda function... ");
+// process.stdout.write("Deploying Lambda function... ");
 
-const { alreadyExisted, functionName } = await deployFunction({
-  createCloudWatchLogGroup: true,
-  memorySizeInMb: RAM,
-  region: REGION,
-  diskSizeInMb: DISK,
-  timeoutInSeconds: TIMEOUT,
-});
-console.log(functionName, alreadyExisted ? "(already existed)" : "(created)");
+// const { alreadyExisted, functionName } = await deployFunction({
+//   createCloudWatchLogGroup: true,
+//   memorySizeInMb: RAM,
+//   region: REGION,
+//   diskSizeInMb: DISK,
+//   timeoutInSeconds: TIMEOUT,
+// });
+// console.log(functionName, alreadyExisted ? "(already existed)" : "(created)");
 
 process.stdout.write("Ensuring bucket... ");
 const { bucketName, alreadyExisted: bucketAlreadyExisted } =
